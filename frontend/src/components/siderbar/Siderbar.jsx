@@ -2,37 +2,31 @@ import Conversations from "./Conversations";
 import LogoutButton from "./LogoutButton";
 import SearchInput from "./SearchInput";
 
-const Siderbar = () => {
+const Sidebar = () => {
   return (
     <div className="border-r border-slate-500 p-4 flex flex-col">
       <SearchInput />
-
       <div className="divider px-3"></div>
       <Conversations />
-
       <LogoutButton />
     </div>
   );
 };
+export default Sidebar;
 
-export default Siderbar;
-
-// STARTER CODE SNIPPET``
+// STARTER CODE FOR THIS FILE
 // import Conversations from "./Conversations";
 // import LogoutButton from "./LogoutButton";
 // import SearchInput from "./SearchInput";
 
-// const Siderbar = () => {
-//   return (
-//     <div className="border-r border-slate-500 p-4 flex flex-col">
-//       <SearchInput />
-
-//       <div className="divider px-3"></div>
-//       <Conversations />
-
-//       <LogoutButton />
-//     </div>
-//   );
+// const Sidebar = () => {
+// 	return (
+// 		<div className='border-r border-slate-500 p-4 flex flex-col'>
+// 			<SearchInput />
+// 			<div className='divider px-3'></div>
+// 			<Conversations />
+// 			<LogoutButton />
+// 		</div>
+// 	);
 // };
-
-// export default Siderbar;
+// export default Sidebar;
